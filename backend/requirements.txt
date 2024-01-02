@@ -1,0 +1,29 @@
+orjson
+uvicorn[standard]
+gunicorn
+fastapi
+fastapi-pagination
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+
+asyncpg~=0.27.0
+alembic~=1.10.3  # TODO update alembic/env.py
+sqlmodel~=0.0.8
+# TODO TODO CHECK IF FIXED
+# sqlalchemy==1.4.35  # https://github.com/tiangolo/sqlmodel/issues/315
+
+# pydantic[email,dotenv]
+pydantic
+python-dotenv
+email-validator
+
+# loguru
+apscheduler
+aiogram~=2.15.0
+fastapi-mail~=1.2.7
+
+# pandas
+# httpx
+
+# https://fastapi.tiangolo.com/#optional-dependencies
